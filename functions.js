@@ -8,7 +8,7 @@ console.log(greet(10,20));
 const fun = function(name) {
     console.log("Hello, " + name + "!");
 };
-fun(Swapna)
+fun(Swapna);
 //3]Arrow function
 const code = (name) => {
     console.log("Hello, " + name + "!");
