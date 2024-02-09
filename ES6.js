@@ -1,5 +1,5 @@
 //1]Arrow functons
-//tradiatinal function expression
+//traditinal function expression
 let add=function(x,y){
     return x+y;
 }

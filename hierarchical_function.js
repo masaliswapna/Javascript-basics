@@ -22,3 +22,4 @@ function outerFunction() {
 
 let myFunction = outerFunction();
 myFunction(); // Call the returned inner function
+    
