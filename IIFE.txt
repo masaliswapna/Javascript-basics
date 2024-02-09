@@ -7,9 +7,11 @@ Here's the general syntax of an IIFE:
 })();
 
 The function is wrapped inside parentheses (function() { ... }).
-The parentheses surrounding the function expression turn it into an expression rather than a declaration, allowing it to be immediately invoked.
+The parentheses surrounding the function expression turn it into an expression rather than a declaration, allowing 
+it to be immediately invoked.
 The () at the end immediately invokes the function.
-IIFEs are often used to create a new scope to encapsulate variables and prevent them from polluting the global scope. They are commonly used in scenarios like:
+IIFEs are often used to create a new scope to encapsulate variables and prevent them from polluting the global scope. 
+They are commonly used in scenarios like:
 
 Creating private variables and functions.
 Implementing modules.
