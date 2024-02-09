@@ -1,0 +1,8 @@
+
+REPL stands for Read-Eval-Print Loop. 
+It's an interactive programming environment that allows you to enter commands or code snippets, which are then executed, 
+and the results are printed back to you.
+REPLs are commonly used for testing small pieces of code, experimenting with language features, and learning.
+
+Node.js provides a built-in REPL environment that you can use to interactively run JavaScript code. You can access 
+the Node.js REPL by typing node in your terminal or command prompt:

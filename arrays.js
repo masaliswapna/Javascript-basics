@@ -3,7 +3,9 @@ let emptyarray=[];
 
 //creating an array with initialisinng values
 let numbers=[1,2,3,4,5];
+console.log(typeof numbers);//object
 let fruits=['Apple', 'Mango', 'Banana', 'papaya'];
+console.log(typeof fruits);//object
 
 //Accessing elements
 console.log(fruits[0]);//Apple

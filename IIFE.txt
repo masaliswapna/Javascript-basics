@@ -1,0 +1,22 @@
+"IIFE" stands for Immediately Invoked Function Expression.
+It's a common pattern used in JavaScript to create a function expression and immediately execute it.
+
+Here's the general syntax of an IIFE:
+(function() {
+    // IIFE body
+})();
+
+The function is wrapped inside parentheses (function() { ... }).
+The parentheses surrounding the function expression turn it into an expression rather than a declaration, allowing it to be immediately invoked.
+The () at the end immediately invokes the function.
+IIFEs are often used to create a new scope to encapsulate variables and prevent them from polluting the global scope. They are commonly used in scenarios like:
+
+Creating private variables and functions.
+Implementing modules.
+Preventing naming conflicts.
+
+Here's a simple example of an IIFE:
+(function() {
+    var message = 'Hello, world!';
+    console.log(message);
+})();
