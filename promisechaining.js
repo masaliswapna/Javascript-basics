@@ -50,9 +50,9 @@ fetch('https://jsonplaceholder.typicode.com/posts/1')
     });
 
     //Example 5
-    const promise1 = Promise.resolve('Promise 1 Resolved');
-const promise2 = 42;
-const promise3 = new Promise((resolve, reject) => {
+    const promise2 = Promise.resolve('Promise 1 Resolved');
+const promise3 = 42;
+const promise4= new Promise((resolve, reject) => {
     setTimeout(resolve, 100, 'Promise 3 Resolved');
 });
 
