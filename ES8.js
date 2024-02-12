@@ -3,7 +3,7 @@ let str = 'hello';
 console.log(str.padStart(10)); // Output: '     hello'
 console.log(str.padEnd(10)); // Output: 'hello     '
 
-//String padding with custome characters
+//String padding with custom characters
 let str1 = 'hello';
 console.log(str1.padStart(10, '*')); // Output: '*****hello'
 console.log(str1.padEnd(10, '*')); // Output: 'hello*****'

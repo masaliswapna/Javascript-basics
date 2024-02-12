@@ -79,3 +79,17 @@ function f1() {
 }
 
 f1();
+
+//
+const myPromise = new Promise((resolve, reject) => {
+  // Asynchronous operation
+  setTimeout(() => {
+      const randomNumber = Math.random();
+      if (randomNumber > 0.5) {
+          resolve(randomNumber);
+      } else {
+          reject(new Error("Random number is less than 0.5"));
+      }
+  }, 1000);
+});
+
